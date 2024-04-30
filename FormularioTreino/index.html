@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinos de Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="form.html">
+            
+            <label>Nome:</label>
+            <input type="text" name="nome" required>
+
+            <label>Telefone:</label>
+            <input type="number" maxlength="10" name="telefone" required>
+
+            <label>Email:</label>
+            <input type="email"  name="email" required>
+           
+            <label>CPF:</label>
+            <input type="number" maxlength="11"  name="cpf" required>
+          
+            <label>Endereço Entrega:</label>
+            <input type="text"  name="endereco" required>
+
+            <label>Numero</label>
+            <input type="number"  name="numero" required>
+
+            <label>Bairro</label>
+            <input type="text"  name="bairro" required>
+
+            <label>Estado</label>
+            <select>
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            
+            <br>
+            <label>Numero do cartão:</label>
+            <input type="number"  name="cartao" placeholder="Card Number" required>
+
+            <label>Nome no cartão:</label>
+            <input type="text"  name="nomecartao" required>
+
+            <label>Data de expiração:</label>
+            
+                <select placeholder="MM" required>
+                   <option>01</option>
+                   <option>02</option>
+                   <option>03</option>
+                   <option>04</option>
+                   <option>05</option>
+                   <option>06</option>
+                   <option>07</option>
+                   <option>08</option>
+                   <option>09</option>
+                   <option>10</option>
+                   <option>11</option>
+                   <option>12</option>
+                </select>
+             
+             
+                <select placeholder="YY" required>
+                   <option>2019</option>
+                   <option>2020</option>
+                   <option>2021</option>
+                   <option>2022</option>
+                   <option>2023</option>
+                   <option>2024</option>
+                   <option>2025</option>
+                   <option>2026</option>
+                   <option>2027</option>
+                   <option>2028</option>
+                   <option>2029</option>
+                   <option>2030</option>
+                </select>
+             
+            <input type="number" maxlength="3" placeholder="CVC"  name="cvc" required>
+            <input type="submit">
+        
+        </form>
+    </div>
+    
+</body>
+</html>
