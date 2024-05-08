@@ -45,13 +45,13 @@ input[type="submit"] {
     background-color: rgb(148, 2, 99);
     border-radius: 10px;
     border-bottom: 5px solid rgb(59, 1, 40);
-    transition: tranform 0s5s;
+    transition: tranform 5s;
 }
 .botaoformulario:hover{
     background-color: rgb(148, 2, 99);
     box-shadow: 0px 0px 30px #e406e4;
     transform: translate(0px, -5px);
-    transition: tranform 0s5s;
+    transition: tranform 5s;
 }
 h1 {
     color:rgb(148, 2, 99) ;
